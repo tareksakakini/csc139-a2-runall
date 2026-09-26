@@ -1,0 +1,13 @@
+# examples/demo.txt - try it with:  make run   (which runs: ./runall -j 2 examples/demo.txt)
+#
+# One command per line. Lines starting with # are comments, and blank lines
+# are skipped. Words are separated by spaces or tabs. There is no quoting,
+# no redirection (<, >) and no pipes (|) - runall is not a shell.
+
+echo hello from job 1
+sleep 1
+ls -l /nonexistent
+no_such_command --help
+echo   extra   spaces   between   words   disappear
+tests/bin/exitwith 3
+tests/bin/selfkill 9

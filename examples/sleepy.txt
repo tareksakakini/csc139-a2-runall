@@ -1,0 +1,9 @@
+# examples/sleepy.txt - used by make experiment. Eight half-second jobs.
+/bin/sleep 0.5
+/bin/sleep 0.5
+/bin/sleep 0.5
+/bin/sleep 0.5
+/bin/sleep 0.5
+/bin/sleep 0.5
+/bin/sleep 0.5
+/bin/sleep 0.5

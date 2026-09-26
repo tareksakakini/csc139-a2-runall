@@ -1,0 +1,9 @@
+# build output
+runall
+*.o
+tests/bin/
+# test + trace artifacts
+trace*.txt
+tests/tmp/
+# macOS
+.DS_Store
