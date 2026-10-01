@@ -1,0 +1,7 @@
+# examples/trace_demo.txt - used by make trace and make trace-summary.
+# Full paths on purpose: with a slash in the name, execvp does not search
+# PATH, so each job is exactly one execve() in the trace.
+/bin/echo hello from job 1
+/bin/sleep 0.2
+/bin/true
+/bin/false
